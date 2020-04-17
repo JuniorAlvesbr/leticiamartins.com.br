@@ -1,2 +1,14 @@
-/* containers */
+/* settings */
+@import '../settings/color.css';
+
+/* Elements */
+@import '../elements/base.css';
+
+/* Components */
+@import '../components/celPhone.css';
+@import '../components/divisor.css';
+@import '../components/social-menu.css';
+
+
+/* container */
 @import '../containers/header-bar.css';
