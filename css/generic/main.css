@@ -8,8 +8,9 @@
 @import '../components/celPhone.css';
 @import '../components/divisor.css';
 @import '../components/social-menu.css';
+@import '../components/main-header.css';
 
 
 /* container */
 @import '../containers/header-bar.css';
-@import '../containers/header.css';
+@import '../containers/main-header.css';
