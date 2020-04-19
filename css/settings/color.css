@@ -1,5 +1,7 @@
 :root {
   --color-pink: #A75F66;
   --color-black: #3C3E44;
+  --color-black-50: rgba(0,0,0,0.5); 
+  --color-white: #ffffff;
   --color-grey: #999999;
 }
