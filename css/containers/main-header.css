@@ -1,7 +1,7 @@
 .main-header > .swiper-container {
   position: relative;
-  width: 400px;
-  height: 90vh;
+  width: 100%;
+  height: 92vh;
 }
 
 .main-header > .swiper-container .swiper-slide {
@@ -22,8 +22,6 @@
   /* Background */
   background-size: cover;
   background-position: center;
-  width: 100%;
-  height: 90vh;
 }
 
 .main-header > .swiper-container .header-text {
@@ -32,4 +30,23 @@
   position: absolute;
   bottom: 20%;
   left: 10%;
+  line-height: 1.2;
+}
+
+@media (min-width: 550px) {
+  .main-header > .swiper-container .header-text {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 800px) {
+  .main-header > .swiper-container .header-text {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-header > .swiper-container .header-text {
+    font-size: 50px;
+  }
 }
