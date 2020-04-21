@@ -1,0 +1,41 @@
+.last-projects {
+  padding-top: 40px;
+  margin: 0;
+  width: 97vw;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50px 1fr 1fr;
+  grid-template-areas: "title title"
+                       "figure1 figure2"
+                       "figure3 figure4";
+  grid-gap: 10px;
+}
+
+.last-projects > .module-title {
+  grid-area: title;
+}
+
+.last-projects > .figure .image {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  height: 100%;
+  max-height: 456px;
+}
+
+.last-projects > .figure1 {
+  grid-area: figure1;
+}
+
+.last-projects > .figure2 {
+  grid-area: figure2;
+}
+
+.last-projects > .figure3 {
+  grid-area: figure3;
+}
+
+.last-projects > .figure4 {
+  grid-area: figure4;
+}

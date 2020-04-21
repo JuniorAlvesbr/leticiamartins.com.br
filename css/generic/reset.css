@@ -347,3 +347,11 @@ template {
 [hidden] {
   display: none;
 }
+
+/**
+  * add reset in the figure
+*/
+figure {
+  margin: 0;
+  padding: 0;
+}
