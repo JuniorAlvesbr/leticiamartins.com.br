@@ -1,6 +1,5 @@
 .last-projects {
   padding-top: 40px;
-  margin: 0;
   width: 97vw;
   height: 50vh;
   display: grid;
@@ -19,9 +18,7 @@
 .last-projects > .figure .image {
   display: block;
   width: 100%;
-  max-width: 340px;
   height: 100%;
-  max-height: 456px;
 }
 
 .last-projects > .figure1 {
@@ -38,4 +35,27 @@
 
 .last-projects > .figure4 {
   grid-area: figure4;
+}
+
+@media (min-width: 700px) {
+  .last-projects {
+    padding-top: 50px;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 9.5vw);
+    grid-template-areas: "figure1 title figure3 ."
+                          "figure1 figure2 figure3 figure4"
+                          "figure1 figure2 figure3 figure4"
+                          ". figure2 . figure4";
+  }
+
+  .last-projects > .module-title {
+    align-self: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .last-projects {
+    grid-template-rows: repeat(4, 10vw);
+  }
 }
