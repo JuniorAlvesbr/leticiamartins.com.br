@@ -5,6 +5,7 @@
 .works > .module-title {
   margin-bottom: 25px;
 }
+
 .works .article .text-box {
   text-align: center;
   min-width: 320px;
@@ -19,7 +20,73 @@
 }
 
 .works .text-box .text {
-  width: 300px;
+  min-width: 300px;
   margin: 30px auto 0;
   line-height: 25px;
+}
+
+
+@media (min-width: 700px) {
+  .works > .container .article {
+    display: flex;
+    width: 100%;
+  }
+
+  .works > .container .article:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  
+  .works .article .image-content,
+  .works .article .text-box {
+    width: 50vw;
+    height: 25vh;
+    min-height: auto;
+  }
+
+  .works .article .text {
+    margin: 5px auto;
+    font-size: 12px;
+    line-height: normal;
+  }
+
+}
+
+@media (min-width: 900px) {
+  .works .article .image-content,
+  .works .article .text-box {
+    height: 30vh;
+  }
+
+  .works .article .text {
+    font-size: 14px;
+    line-height: 15px;
+    max-width: 500px;
+  }
+ 
+}
+
+@media (min-width: 1300px) {
+  .works .article .image-content,
+  .works .article .text-box {
+    height: 50vh;
+  }
+
+  .works .article .text {
+    margin: 25px auto;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 1450px) {
+  .works .article .title {
+    font-size: 30px;
+  }
+
+  .works .article .text {
+    margin: 50px auto;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 1000px;
+  }
 }
