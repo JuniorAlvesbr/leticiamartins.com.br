@@ -10,9 +10,11 @@
 @import '../components/social-menu.css';
 @import '../components/main-header.css';
 @import '../components/module-title.css';
-
+@import '../components/images.css';
+@import '../components/text-box.css';
 
 /* container */
 @import '../containers/header-bar.css';
 @import '../containers/main-header.css';
 @import '../containers/last-projects.css';
+@import '../containers/works.css';

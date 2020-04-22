@@ -1,0 +1,31 @@
+.works {
+  padding-top: 50px;
+}
+
+.works > .module-title {
+  margin-bottom: 25px;
+}
+
+.works > .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.works .article .text-box {
+  text-align: center;
+  min-width: 320px;
+  min-height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.works .text-box .title {
+  font-size: 20px;
+}
+
+.works .text-box .text {
+  width: 300px;
+  margin: 30px auto 0;
+  line-height: 25px;
+}

@@ -1,0 +1,16 @@
+.title, .text {
+  color: var(--color-white);
+  letter-spacing: 1.5px;
+}
+
+.title.-dark, .text.-dark {
+  color: var(--color-black);
+}
+
+.text-box.-color {
+  background-color: var(--color-pink);
+}
+
+.text-box.-dark {
+  background-color: var(--color-black);
+}

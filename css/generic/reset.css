@@ -42,7 +42,7 @@ h1 {
   margin: 0.67em 0;
 }
 
-h2 {
+h2, h3 {
   margin: 0;
 }
 
@@ -358,4 +358,8 @@ template {
 figure {
   margin: 0;
   padding: 0;
+}
+
+p {
+  margin: 0;
 }
