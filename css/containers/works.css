@@ -1,0 +1,30 @@
+.works {
+  background-color: var(--color-sixth);
+  padding-top: 50px;
+}
+
+.works > .container .card {
+  display: flex;
+  margin-top: 30px;
+}
+
+.works .card > .icon {
+  width: 90px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.works .icon > .fas,
+.works .icon > .far {
+  font-size: 30px;
+}
+
+.works .card > .text {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}

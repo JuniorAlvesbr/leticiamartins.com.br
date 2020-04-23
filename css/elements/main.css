@@ -12,9 +12,11 @@
 @import '../components/module-title.css';
 @import '../components/images.css';
 @import '../components/text-box.css';
+@import '../components/cards.css';
 
 /* container */
 @import '../containers/header-bar.css';
 @import '../containers/main-header.css';
 @import '../containers/last-projects.css';
 @import '../containers/services.css';
+@import '../containers/works.css';
