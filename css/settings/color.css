@@ -1,7 +1,8 @@
 :root {
-  --color-pink: #A75F66;
+  --color-white: #ffffff;
   --color-black: #3C3E44;
   --color-black-alpha: rgba(0,0,0,0.3); 
-  --color-white: #ffffff;
+  --color-pink: #A75F66;
   --color-grey: #999999;
+  --color-sixth: #DDD9CE;
 }
