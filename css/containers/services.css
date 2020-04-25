@@ -36,16 +36,6 @@
     margin-top: 100px;
   }
 
-  .services > .module-title .title {
-    font-size: 40px;
-  }
-
-  .services > .module-title .sub-title {
-    font-size: 120px;
-    top: -60px;
-  }
-
-
   .services > .container .article {
     display: flex;
     width: 100%;
@@ -65,7 +55,6 @@
   .services .article .text {
     margin: 5px auto;
     font-size: 12px;
-    /* line-height: normal; */
   }
 
 }
@@ -87,15 +76,6 @@
 @media (min-width: 1300px) {
   .services .container {
     margin-top: 100px;
-  }
-
-  .services > .module-title .title {
-    font-size: 50px;
-  }
-
-  .services > .module-title .sub-title {
-    font-size: 150px;
-    top: -70px;
   }
 
   .services .article .image-content,
