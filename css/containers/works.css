@@ -38,8 +38,8 @@
 
 @media (min-width: 500px) {
   .works {
-    height: 50vh;
     padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .works .container {
