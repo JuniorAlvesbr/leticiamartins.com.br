@@ -3,12 +3,24 @@
   letter-spacing: 1.5px;
 }
 
+.title.-about {
+  font-weight: 700;
+}
+
+.text.-about {
+  font-weight: 300;
+}
+
 .title.-dark, .text.-dark {
   color: var(--color-black);
 }
 
 .text-box.-color {
   background-color: var(--color-pink);
+}
+
+.text-box.-about {
+  background-color: var(--color-fifth);
 }
 
 .text-box.-dark {
