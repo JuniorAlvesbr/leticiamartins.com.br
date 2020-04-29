@@ -14,6 +14,7 @@
 @import '../components/images.css';
 @import '../components/text-box.css';
 @import '../components/cards.css';
+@import '../components/video-section.css';
 
 /* container */
 @import '../containers/header-bar.css';
