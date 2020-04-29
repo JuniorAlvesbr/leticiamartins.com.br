@@ -1,0 +1,53 @@
+.main-footer > .content {
+    background-color: var(--color-black);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+.main-footer .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.main-footer .menu .action {
+    font-size: 30px;
+}
+
+.main-footer > .content .local {
+    text-align: center;
+}
+
+.main-footer .local .fas {
+    font-size: 20px;
+}
+
+@media (min-width: 400px) {
+    .main-footer .menu {
+        width: 300px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .main-footer > .content {
+        flex-flow: initial;
+        height: 80px;
+    }
+
+    .main-footer .menu {
+        width: 250px;
+        order: 2;
+    }
+
+    .main-footer .content-phone {
+        order: 1;
+    }
+
+    .main-footer .local {
+        order: 3;
+    }
+
+}

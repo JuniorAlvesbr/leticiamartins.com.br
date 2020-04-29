@@ -8,7 +8,6 @@
 @import '../components/celPhone.css';
 @import '../components/icons.css';
 @import '../components/divisor.css';
-@import '../components/social-menu.css';
 @import '../components/main-header.css';
 @import '../components/module-title.css';
 @import '../components/images.css';
@@ -25,3 +24,4 @@
 @import '../containers/about.css';
 @import '../containers/video-section.css';
 @import '../containers/contact-section.css';
+@import '../containers/main-footer.css';

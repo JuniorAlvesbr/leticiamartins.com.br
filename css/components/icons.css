@@ -1,7 +1,7 @@
-.fab {
-  color: var(--color-pink);
+.fab, .far, .fas {
+  color: var(--color-white);
 }
 
-.fa-play-circle {
-  color: var(--color-white);
+.fab.-color {
+  color: var(--color-pink);
 }

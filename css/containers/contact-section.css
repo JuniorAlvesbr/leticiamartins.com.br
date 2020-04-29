@@ -1,6 +1,6 @@
 .contact-section {
     padding-top: 50px;
-    height: 80vh;
+    padding-bottom: 50px;
 }
 
 .contact-section > .container {
@@ -33,7 +33,6 @@
 
 .contact-section .form > .inputMessage {
     padding: 15px;
-    height: 200px;
 }
 
 .contact-section .form > .input::placeholder {
@@ -53,18 +52,21 @@
     box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
 }
 
-@media (min-width : 600px) {
-    .contact-section {
-        padding-top: 100px;
-    }
-
+@media (min-width: 700px) {
     .contact-section > .container {
         width: 50%;
     }
 }
 
-@media (min-height: 1300px) {
+@media (min-width: 1000px) {
     .contact-section {
-        height: 60vh;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .contact-section > .container {
+        width: 700px;
     }
 }
