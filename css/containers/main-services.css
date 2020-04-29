@@ -1,12 +1,12 @@
-.services {
+.main-services {
   padding-top: 50px;
 }
 
-.services > .module-title {
+.main-services > .module-title {
   margin-bottom: 25px;
 }
 
-.services .article .text-box {
+.main-services .article .text-box {
   text-align: center;
   min-width: 320px;
   min-height: 290px;
@@ -15,11 +15,11 @@
   align-items: center;
 }
 
-.services .text-box .title {
+.main-services .text-box .title {
   font-size: 20px;
 }
 
-.services .text-box .text {
+.main-services .text-box .text {
   min-width: 300px;
   max-width: 500px;
   margin: 30px auto 0;
@@ -28,31 +28,31 @@
 
 
 @media (min-width: 800px) {
-  .services {
+  .main-services {
     padding-top: 200px;
   }
 
-  .services .container {
+  .main-services .container {
     margin-top: 100px;
   }
 
-  .services > .container .article {
+  .main-services > .container .article {
     display: flex;
     width: 100%;
   }
 
-  .services > .container .article:nth-child(odd) {
+  .main-services > .container .article:nth-child(odd) {
     flex-direction: row-reverse;
   }
   
-  .services .article .image-content,
-  .services .article .text-box {
+  .main-services .article .image-content,
+  .main-services .article .text-box {
     width: 50vw;
     height: 25vh;
     min-height: 35vh;
   }
 
-  .services .article .text {
+  .main-services .article .text {
     margin: 5px auto;
     font-size: 12px;
   }
@@ -60,12 +60,12 @@
 }
 
 @media (min-width: 900px) {
-  .services .article .image-content,
-  .services .article .text-box {
+  .main-services .article .image-content,
+  .main-services .article .text-box {
     height: 50vh;
   }
 
-  .services .article .text {
+  .main-services .article .text {
     max-width: 500px;
     font-size: 16px;
     margin-top: 10px;
@@ -74,32 +74,32 @@
 }
 
 @media (min-width: 1300px) {
-  .services .container {
+  .main-services .container {
     margin-top: 100px;
   }
 
-  .services .article .image-content,
-  .services .article .text-box {
+  .main-services .article .image-content,
+  .main-services .article .text-box {
     height: 50vh;
   }
 
-  .services .article .text {
+  .main-services .article .text {
     margin: 25px auto;
   }
 }
 
 @media (min-width: 1450px) {
-  .services .article .title {
+  .main-services .article .title {
     font-size: 30px;
   }
 
-  .services .article .text {
+  .main-services .article .text {
     margin: 50px auto;
     font-size: 20px;
   }
 
-  .services .article .image-content,
-  .services .article .text-box {
+  .main-services .article .image-content,
+  .main-services .article .text-box {
     height: 60vh;
   }
 }

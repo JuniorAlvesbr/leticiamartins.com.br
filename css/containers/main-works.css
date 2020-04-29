@@ -1,20 +1,20 @@
-.works {
+.main-works {
   background-color: var(--color-sixth);
   padding-top: 50px;
 }
 
-.works .container {
+.main-works .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.works > .container .card {
+.main-works > .container .card {
   margin-top: 30px;
   display: flex;
 }
 
-.works .card > .icon {
+.main-works .card > .icon {
   display: flex;
   justify-content: center;
   width: 90px;
@@ -24,12 +24,12 @@
 }
 
 
-.works .icon > .fas,
-.works .icon > .far {
+.main-works .icon > .fas,
+.main-works .icon > .far {
   font-size: 30px;
 }
 
-.works .card > .text {
+.main-works .card > .text {
   display: flex;
   align-items: center;
   width: 100%;
@@ -40,23 +40,23 @@
 
 
 @media (min-width: 500px) {
-  .works {
+  .main-works {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 
-  .works .container {
+  .main-works .container {
     align-items: center;
     margin-top: 50px;
   }
 
-  .works .card {
+  .main-works .card {
     width: 60%;
   }
 }
 
 @media (min-width: 700px) {
-  .works > .container {
+  .main-works > .container {
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
@@ -65,23 +65,23 @@
     justify-content: space-between;
   }
 
-  .works > .container .card {
+  .main-works > .container .card {
     display: inline-block;
     width: 200px;
 
   }
 
-  .works .card .icon {
+  .main-works .card .icon {
     width: 100%;
     height: 150px;
   }
 
-  .works .icon > .fas,
-  .works .icon > .far {
+  .main-works .icon > .fas,
+  .main-works .icon > .far {
     font-size: 40px;
   }
 
-  .works .card .text {
+  .main-works .card .text {
     padding: 0;
     font-size: 14px;
     width: 100%;
@@ -91,35 +91,35 @@
 }
 
 @media (min-width: 900px) {
-  .works > .container {
+  .main-works > .container {
     width: 750px;
   }
 }
 
 @media (min-width: 1300px) {
-  .works > .container {
+  .main-works > .container {
     width: 86vw;
   }
 
-  .works > .container .card {
+  .main-works > .container .card {
     width: 170px;
   }
 
-  .works .card .icon {
+  .main-works .card .icon {
     height: 120px;
   }
 }
 
 @media (min-width: 1500px) {
-  .works > .container {
+  .main-works > .container {
     width: 80vw;
   }
 
-  .works > .container .card {
+  .main-works > .container .card {
     width: 200px;
   }
 
-  .works .card .icon {
+  .main-works .card .icon {
     height: 150px;
   }
 }

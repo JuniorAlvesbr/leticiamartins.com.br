@@ -1,14 +1,14 @@
-.contact-section {
+.main-contact {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.contact-section > .container {
+.main-contact > .container {
     width: 90%;
     margin: 0 auto;
 }
 
-.contact-section > .container .form {
+.main-contact > .container .form {
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -16,12 +16,12 @@
     width: 100%;
 }
 
-.contact-section .form > .label {
+.main-contact .form > .label {
     margin-bottom: 5px;
     font-size: 18px;
 }
 
-.contact-section .form > .input {
+.main-contact .form > .input {
     font-family: inherit;
     margin-bottom: 15px;
     padding: 0 15px;
@@ -31,16 +31,16 @@
     box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
 }
 
-.contact-section .form > .inputMessage {
+.main-contact .form > .inputMessage {
     padding: 15px;
 }
 
-.contact-section .form > .input::placeholder {
+.main-contact .form > .input::placeholder {
     color: #999;
     opacity: 1;
 }
 
-.contact-section .form .button {
+.main-contact .form .button {
     font-size: 14px;
     text-transform: uppercase;
     background-color: var(--color-black);
@@ -53,20 +53,20 @@
 }
 
 @media (min-width: 700px) {
-    .contact-section > .container {
+    .main-contact > .container {
         width: 50%;
     }
 }
 
 @media (min-width: 1000px) {
-    .contact-section {
+    .main-contact {
         padding-top: 150px;
         padding-bottom: 150px;
     }
 }
 
 @media (min-width: 1400px) {
-    .contact-section > .container {
+    .main-contact > .container {
         width: 700px;
     }
 }

@@ -11,12 +11,12 @@
 @import '../components/text-box.css';
 
 /* container */
-@import '../containers/about.css';
-@import '../containers/contact-section.css';
+@import '../containers/main-about.css';
+@import '../containers/main-contact.css';
 @import '../containers/header-bar.css';
-@import '../containers/last-projects.css';
+@import '../containers/main-projects.css';
 @import '../containers/main-footer.css';
 @import '../containers/main-header.css';
-@import '../containers/services.css';
+@import '../containers/main-services.css';
 @import '../containers/video-section.css';
-@import '../containers/works.css';
+@import '../containers/main-works.css';
