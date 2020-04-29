@@ -4,7 +4,7 @@
 
 .module-title > .title {
   position: relative;
-  color: var(--color-black);
+  color: var(--color-second);
   font-size: 20px;
   font-weight: 300;
 }

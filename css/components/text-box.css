@@ -1,5 +1,5 @@
 .title, .text {
-  color: var(--color-white);
+  color: var(--color-first);
   letter-spacing: 1.5px;
 }
 
@@ -12,11 +12,11 @@
 }
 
 .title.-dark, .text.-dark {
-  color: var(--color-black);
+  color: var(--color-second);
 }
 
 .text-box.-color {
-  background-color: var(--color-pink);
+  background-color: var(--color-fourth);
 }
 
 .text-box.-about {
@@ -24,5 +24,5 @@
 }
 
 .text-box.-dark {
-  background-color: var(--color-black);
+  background-color: var(--color-second);
 }

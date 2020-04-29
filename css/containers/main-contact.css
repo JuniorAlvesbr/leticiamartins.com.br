@@ -27,8 +27,8 @@
     padding: 0 15px;
     font-size: 14px;
     min-height: 34px;
-    border: 1px solid var(--color-black);
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
+    border: 1px solid var(--color-second);
+    box-shadow: 5px 5px 5px var(--color-eighth);
 }
 
 .main-contact .form > .inputMessage {
@@ -36,20 +36,20 @@
 }
 
 .main-contact .form > .input::placeholder {
-    color: #999;
+    color: var(--color-seventh);
     opacity: 1;
 }
 
 .main-contact .form .button {
     font-size: 14px;
     text-transform: uppercase;
-    background-color: var(--color-black);
+    background-color: var(--color-second);
     border-radius: 4px;
-    color: var(--color-white);
+    color: var(--color-first);
     padding: 8px 25px;
     cursor: pointer;
     border: 0;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
+    box-shadow: 5px 5px 5px var(--color-eighth);
 }
 
 @media (min-width: 700px) {

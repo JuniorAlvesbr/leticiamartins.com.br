@@ -20,7 +20,7 @@
   width: 90px;
   height: 80px;
   align-items: center;
-  background-color: var(--color-black);
+  background-color: var(--color-second);
 }
 
 
@@ -35,7 +35,7 @@
   width: 100%;
   height: 80px;
   padding-left: 30px;
-  background-color:var(--color-pink);
+  background-color:var(--color-fourth);
 }
 
 
