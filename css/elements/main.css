@@ -5,23 +5,18 @@
 @import '../elements/base.css';
 
 /* Components */
-@import '../components/celPhone.css';
 @import '../components/icons.css';
-@import '../components/divisor.css';
-@import '../components/main-header.css';
-@import '../components/module-title.css';
 @import '../components/images.css';
+@import '../components/module-title.css';
 @import '../components/text-box.css';
-@import '../components/cards.css';
-@import '../components/video-section.css';
 
 /* container */
-@import '../containers/header-bar.css';
-@import '../containers/main-header.css';
-@import '../containers/last-projects.css';
-@import '../containers/services.css';
-@import '../containers/works.css';
 @import '../containers/about.css';
-@import '../containers/video-section.css';
 @import '../containers/contact-section.css';
+@import '../containers/header-bar.css';
+@import '../containers/last-projects.css';
 @import '../containers/main-footer.css';
+@import '../containers/main-header.css';
+@import '../containers/services.css';
+@import '../containers/video-section.css';
+@import '../containers/works.css';
