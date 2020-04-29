@@ -1,0 +1,70 @@
+.contact-section {
+    padding-top: 50px;
+    height: 80vh;
+}
+
+.contact-section > .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-section > .container .form {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 100%;
+}
+
+.contact-section .form > .label {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.contact-section .form > .input {
+    font-family: inherit;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    font-size: 14px;
+    min-height: 34px;
+    border: 1px solid var(--color-black);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
+}
+
+.contact-section .form > .inputMessage {
+    padding: 15px;
+    height: 200px;
+}
+
+.contact-section .form > .input::placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+.contact-section .form .button {
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: var(--color-black);
+    border-radius: 4px;
+    color: var(--color-white);
+    padding: 8px 25px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
+}
+
+@media (min-width : 600px) {
+    .contact-section {
+        padding-top: 100px;
+    }
+
+    .contact-section > .container {
+        width: 50%;
+    }
+}
+
+@media (min-height: 1300px) {
+    .contact-section {
+        height: 60vh;
+    }
+}

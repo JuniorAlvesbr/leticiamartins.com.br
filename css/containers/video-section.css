@@ -50,6 +50,10 @@
 }
 
 @media (min-width: 700px) {
+    .video-section .video-wrapper .video-card {
+        max-width: 600px;
+    }
+
     .video-card .play .far {
         font-size: 70px;
     }
