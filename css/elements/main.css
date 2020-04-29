@@ -6,6 +6,7 @@
 
 /* Components */
 @import '../components/celPhone.css';
+@import '../components/icons.css';
 @import '../components/divisor.css';
 @import '../components/social-menu.css';
 @import '../components/main-header.css';
@@ -21,3 +22,4 @@
 @import '../containers/services.css';
 @import '../containers/works.css';
 @import '../containers/about.css';
+@import '../containers/video-section.css';
