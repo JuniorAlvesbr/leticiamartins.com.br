@@ -1,3 +1,7 @@
+.main-about {
+  height: 90vh;
+}
+
 .main-about > .container {
   padding-top: 50px;
   height: 100%;
@@ -61,10 +65,10 @@
 }
 
 @media (min-width: 1000px) {
-  .main-about .container {
+  .main-about > .container {
     padding-top: 100px;
     width: 70vw;
-    height: 630px;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -86,7 +90,7 @@
 }
 
 @media (min-width: 1250px) {
-  .main-about .container {
+  .main-about > .container {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
