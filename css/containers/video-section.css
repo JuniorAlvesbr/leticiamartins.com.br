@@ -1,5 +1,5 @@
 .video-section {
-    background: url('../../assets/img/about/about2.png') no-repeat;
+    background: url('../../assets/img/about/personao-organizer-ropeiro.jpg') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -31,11 +31,11 @@
 }
 
 .video-wrapper > .video-card.-card1 .play {
-    background-image: url(../../assets/img/about/video1.jpg) ;
+    background-image: url(../../assets/img/about/personal-organizer.jpg) ;
 }
 
 .video-wrapper > .video-card.-card2 .play {
-    background-image: url(../../assets/img/about/video2.jpg) ;
+    background-image: url(../../assets/img/about/amor-a-profissao.jpg) ;
 }
 
 .video-section .video-card .play {
