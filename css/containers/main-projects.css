@@ -45,10 +45,27 @@
   .main-projects > .module-title {
     align-self: center;
   }
+
+  .main-projects > .module-title .sub-title {
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
   .main-projects {
     grid-template-rows: repeat(4, 10vw);
+  }
+
+  .main-projects > .module-title .sub-title{
+    display: block;
+    font-size: 80px;
+    top: 0;
+  }
+}
+
+@media (min-width: 1700px) {
+  .main-projects > .module-title .sub-title{
+    font-size: 110px;
+    top: -50px;
   }
 }
