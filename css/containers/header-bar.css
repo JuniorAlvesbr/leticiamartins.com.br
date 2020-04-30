@@ -7,9 +7,10 @@
 .header-bar > .container .image {
   width: 260px;
   height: 50px;
+  display: inline;
 }
 
-.header-bar > .content {
+.header-bar > .container .content {
   display: none;
   font-size: 18px;
 }
@@ -31,7 +32,7 @@
   font-size: 25px;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 580px) {
   .header-bar > .container {
     text-align: left;
     display: flex;
@@ -41,7 +42,7 @@
     padding-right: 5%;
   }
 
-  .header-bar > .content {
+  .header-bar > .container .content {
     display: block;
   }
 
@@ -51,13 +52,13 @@
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .header-bar > .container {
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  .header-bar .content,
+  .header-bar > .container .content,
   .header-bar .content > .content-phone {
     display: flex;
     align-items: center;

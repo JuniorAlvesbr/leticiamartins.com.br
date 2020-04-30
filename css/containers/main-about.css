@@ -1,5 +1,6 @@
 .main-about > .container {
   padding-top: 50px;
+  height: 100%;
 }
 
 .main-about .module-title .title {
@@ -14,14 +15,14 @@
 .main-about > .container .content {
   margin-top: 30px;
   min-width: 320px;
-  height: 568px;
+  height: 600px;
   position: relative;
 }
 
 .main-about .content > .text-box {
   position: absolute;
   left: 50%;
-  bottom: 5px;
+  bottom: 10px;
   transform: translateX(-50%);
   width: 90vw;
 }
