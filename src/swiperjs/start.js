@@ -1,5 +1,5 @@
 var swiper = new Swiper('.swiper-container', {
-  cssMode: true,
+  cssMode: false,
   autoplay: {
     delay: 4000
   },
@@ -8,7 +8,7 @@ var swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
   pagination: {
-    el: '.swiper-pagination'
+    el: '.swiper-pagination',
   },
   mousewheel: true,
   keyboard: true,
