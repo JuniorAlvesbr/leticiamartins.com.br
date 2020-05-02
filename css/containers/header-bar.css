@@ -32,7 +32,45 @@
   font-size: 25px;
 }
 
+.header-bar-fixed {
+  position: fixed;
+  top: 0;
+  transform: translateY(-60px);
+  z-index: 100;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--color-first);
+  transition: transform 0.1s linear;
+}
+
+.header-bar-fixed.-active {
+  transform: translateY(0);
+  transition: transform 0.5s linear;
+}
+
+.header-bar-fixed > .menu {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
 @media (min-width: 580px) {
+  .header-bar-fixed {
+    display: none;
+  }
+
+  .header-bar {
+    background-color: var(--color-first);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+
   .header-bar > .container {
     text-align: left;
     display: flex;

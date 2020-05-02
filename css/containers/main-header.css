@@ -61,6 +61,12 @@
   }
 }
 
+@media (min-width: 580px) {
+  .main-header {
+    padding-top: 64px;
+  }
+}
+
 @media (min-width: 800px) {
   .main-header > .swiper-container .header-text {
     font-size: 35px;
