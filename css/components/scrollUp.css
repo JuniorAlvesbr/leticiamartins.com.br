@@ -1,0 +1,23 @@
+.scroll-up > .action {
+    background-color: var(--color-ninth);
+    opacity: 0.3;
+    font-size: 14px;
+    display: block;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.scroll-up > .action:hover {
+    opacity: 1;
+    background-color: var(--color-first);
+}
+
+.scroll-up > .action .fas {
+    color: var(--color-first);
+    transition: color 0.3s linear;
+}
+
+.scroll-up > .action:hover .fas {
+    color: var(--color-fourth);
+}

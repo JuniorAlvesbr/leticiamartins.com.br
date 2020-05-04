@@ -9,6 +9,7 @@
 @import '../components/images.css';
 @import '../components/module-title.css';
 @import '../components/text-box.css';
+@import '../components/scrollUp.css';
 
 /* container */
 @import '../containers/main-about.css';

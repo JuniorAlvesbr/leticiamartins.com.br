@@ -1,3 +1,7 @@
+.main-footer {
+    position: relative;
+}
+
 .main-footer > .content {
     background-color: var(--color-second);
     display: flex;
@@ -29,6 +33,13 @@
     .main-footer .menu {
         width: 300px;
     }
+}
+
+.main-footer > .scroll-up {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
 }
 
 @media (min-width: 1000px) {
