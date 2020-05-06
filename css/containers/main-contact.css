@@ -27,8 +27,10 @@
     padding: 0 15px;
     font-size: 14px;
     min-height: 34px;
-    border: 1px solid var(--color-second);
-    box-shadow: 5px 5px 5px var(--color-eighth);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px var(--color-eighth);
 }
 
 .main-contact .form > .inputMessage {
@@ -37,7 +39,6 @@
 
 .main-contact .form > .input::placeholder {
     color: var(--color-seventh);
-    opacity: 1;
 }
 
 .main-contact .form .button {
@@ -48,8 +49,8 @@
     color: var(--color-first);
     padding: 8px 25px;
     cursor: pointer;
-    border: 0;
-    box-shadow: 5px 5px 5px var(--color-eighth);
+    border: none;
+    box-shadow: 1px 1px 1px var(--color-eighth);
 }
 
 @media (min-width: 700px) {
