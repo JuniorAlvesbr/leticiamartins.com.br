@@ -88,6 +88,25 @@
     display: flex;
     justify-content: space-around;
   }
+  
+  .header-bar.-fixed > .container {
+    padding-top: 2px;
+    padding-bottom: 0;
+  }
+  
+    .header-bar.-fixed > .container .image {
+    width: 150px;
+    height: 30px;
+  }
+
+  .header-bar.-fixed > .container .content {
+    font-size: 15px;
+  }
+
+  .header-bar.-fixed > .container .action {
+    font-size: 20px;
+  }
+
 }
 
 @media (min-width: 900px) {
@@ -105,6 +124,10 @@
   .header-bar .content-phone > .divisor {
     height: 44px;
     margin-left: 35px;
+  }
+
+  .header-bar.-fixed .content-phone > .divisor {
+    height: 30px;
   }
 
   .header-bar .menu .action {
