@@ -15,6 +15,13 @@
   font-size: 18px;
 }
 
+.header-bar > .container,
+.header-bar > .container .image,
+.header-bar > .container .content,
+.header-bar .menu .action {
+  transition: all .5s linear;
+}
+
 .header-bar .celPhone .text:first-child {
   color: var(--color-seventh);
 }
@@ -41,12 +48,10 @@
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: var(--color-first);
-  transition: transform 0.1s linear;
 }
 
 .header-bar-fixed.-active {
   transform: translateY(0);
-  transition: transform 0.5s linear;
 }
 
 .header-bar-fixed > .menu {
@@ -68,7 +73,6 @@
     top: 0;
     z-index: 100;
     width: 100%;
-    transition: all 0.5s ease-in-out;
   }
 
   .header-bar > .container {
