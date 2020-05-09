@@ -1,23 +1,14 @@
-.scroll-up > .action {
-    background-color: var(--color-ninth);
-    opacity: 0.3;
-    font-size: 14px;
-    display: block;
-    padding: 8px 12px;
+.scroll-up {
+    border: 2px solid var(--color-first);
     cursor: pointer;
-    transition: all 0.3s linear;
+    transition: all .5s linear;
 }
 
-.scroll-up > .action:hover {
-    opacity: 1;
+.scroll-up:hover {
     background-color: var(--color-first);
+    border: 2px solid var(--color-fourth);
 }
 
-.scroll-up > .action .fas {
-    color: var(--color-first);
-    transition: color 0.3s linear;
-}
-
-.scroll-up > .action:hover .fas {
+.scroll-up:hover > .action .fas {
     color: var(--color-fourth);
 }
