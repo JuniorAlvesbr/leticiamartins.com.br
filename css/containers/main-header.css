@@ -5,15 +5,19 @@
 }
 
 .main-header .slide1 {
-  background: url('../../assets/img/header/cama.jpg') no-repeat;
+  background: url("../../assets/img/header/cozinha-500.jpg") no-repeat;
 }
 
 .main-header .slide2 {
-  background: url('../../assets/img/header/cabide.jpeg') no-repeat;
+  background: url("../../assets/img/header/cabide-800.jpg") no-repeat;
 }
 
 .main-header .slide3 {
-  background: url('../../assets/img/header/leticia.jpg') no-repeat;
+  background: url("../../assets/img/header/familia-800.jpg") no-repeat;
+}
+
+.main-header .slide4 {
+  background: url("../../assets/img/header/closet-500.jpg") no-repeat;
 }
 
 .main-header > .swiper-container .swiper-slide {
@@ -37,7 +41,7 @@
 }
 
 .main-header > .swiper-container .swiper-slide::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-color: var(--color-third);
@@ -68,6 +72,22 @@
 }
 
 @media (min-width: 800px) {
+  .main-header .slide1 {
+    background: url("../../assets/img/header/cozinha-1920.jpg") no-repeat;
+  }
+
+  .main-header .slide2 {
+    background: url("../../assets/img/header/cabide-1280.jpeg") no-repeat;
+  }
+
+  .main-header .slide3 {
+    background: url("../../assets/img/header/familia-1920.jpg") no-repeat;
+  }
+
+  .main-header .slide4 {
+    background: url("../../assets/img/header/closet-1920.jpg") no-repeat;
+  }
+
   .main-header > .swiper-container .header-text {
     font-size: 35px;
   }
