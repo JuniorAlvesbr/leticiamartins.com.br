@@ -1,71 +1,45 @@
 .main-projects {
-  padding-top: 40px;
-  width: 97vw;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50px 1fr 1fr;
-  grid-template-areas: "title title"
-                       "figure1 figure2"
-                       "figure3 figure4";
-  grid-gap: 10px;
+  position: relative;
+  height: 100%;
 }
 
 .main-projects > .module-title {
-  grid-area: title;
+  margin-top: 40px;
 }
 
-.main-projects > .figure1 {
-  grid-area: figure1;
+.main-projects > .swiper2 {
+  width: 100%;
+  height: 100%;
+  padding-top: 75px;
+  padding-bottom: 50px;
 }
 
-.main-projects > .figure2 {
-  grid-area: figure2;
+.main-projects > .swiper2 .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 450px;
 }
 
-.main-projects > .figure3 {
-  grid-area: figure3;
+@media (min-width: 550px) {
+  .main-projects > .swiper2 .swiper-slide {
+    width: 500px;
+    height: 600px; 
+  }
 }
 
-.main-projects > .figure4 {
-  grid-area: figure4;
-}
-
-@media (min-width: 700px) {
-  .main-projects {
-    padding-top: 50px;
-    margin: 0 auto;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 9.5vw);
-    grid-template-areas: "figure1 title figure3 ."
-                          "figure1 figure2 figure3 figure4"
-                          "figure1 figure2 figure3 figure4"
-                          ". figure2 . figure4";
+@media (min-width: 800px) {
+  .main-projects > .module-title {
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
 
-  .main-projects > .module-title {
-    align-self: center;
+  .main-projects > .module-title .title {
+    font-size: 30px;
   }
 
   .main-projects > .module-title .sub-title {
-    display: none;
-  }
-}
-
-@media (min-width: 1200px) {
-  .main-projects {
-    grid-template-rows: repeat(4, 10vw);
-  }
-
-  .main-projects > .module-title .sub-title{
-    display: block;
-    font-size: 80px;
-    top: 0;
-  }
-}
-
-@media (min-width: 1700px) {
-  .main-projects > .module-title .sub-title{
     font-size: 110px;
-    top: -50px;
+    top: -53px;
   }
 }
