@@ -1,4 +1,4 @@
-.video-section {
+.video-section.lazyloaded {
   background: url("../../assets/img/about/personao-organizer-ropeiro-600.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -31,11 +31,11 @@
   height: 100%;
 }
 
-.video-wrapper > .video-card.-card1 .play {
+.video-wrapper > .video-card.-card1 .play.lazyloaded  {
   background-image: url(../../assets/img/about/personal-organizer-500.jpg);
 }
 
-.video-wrapper > .video-card.-card2 .play {
+.video-wrapper > .video-card.-card2 .play.lazyloaded {
   background-image: url(../../assets/img/about/amor-a-profissao-500.jpg);
 }
 
@@ -67,7 +67,7 @@
 }
 
 @media (min-width: 700px) {
-  .video-section {
+  .video-section.lazyloaded {
     background: url("../../assets/img/about/personao-organizer-ropeiro-1280.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -87,11 +87,11 @@
     font-size: 22px;
   }
 
-  .video-wrapper > .video-card.-card1 .play {
+  .video-wrapper > .video-card.-card1 .play.lazyloaded {
     background-image: url(../../assets/img/about/personal-organizer-800.jpg);
   }
 
-  .video-wrapper > .video-card.-card2 .play {
+  .video-wrapper > .video-card.-card2 .play.lazyloaded {
     background-image: url(../../assets/img/about/amor-a-profissao-800.jpg);
   }
 }

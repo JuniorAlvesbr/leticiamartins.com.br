@@ -168,7 +168,7 @@
 
         <article class="article">
           <div class="image-content">
-            <img src="assets/img/works/organizer-service1.jpg" loading="lazy" class="image"
+            <img data-src="assets/img/works/organizer-service1.jpg" class="image lazyload"
               alt="Como trabalhamos Leticia Martins">
           </div>
           <div class="text-box -dark">
@@ -183,7 +183,7 @@
 
         <article class="article">
           <div class="image-content">
-            <img src="assets/img/works/organizer-service2.jpg" loading="lazy" class="image"
+            <img data-src="assets/img/works/organizer-service2.jpg" class="image lazyload"
               alt="Como trabalhamos Leticia Martins">
           </div>
           <div class="text-box">
@@ -199,7 +199,7 @@
 
         <article class="article">
           <div class="image-content">
-            <img src="assets/img/works/organizer-service3.jpg" loading="lazy" class="image"
+            <img data-src="assets/img/works/organizer-service3.jpg" class="image lazyload"
               alt="Como trabalhamos Leticia Martins">
           </div>
           <div class="text-box -dark">
@@ -214,7 +214,7 @@
 
         <article class="article">
           <div class="image-content">
-            <img src="assets/img/works/organizer-service4.jpg" loading="lazy" class="image"
+            <img data-src="assets/img/works/organizer-service4.jpg" class="image lazyload"
               alt="Como trabalhamos Leticia Martins">
           </div>
           <div class="text-box">
@@ -230,7 +230,8 @@
 
         <article class="article">
           <div class="image-content">
-            <img src="assets/img/works/organizer-service5.jpg" class="image" alt="Como trabalhamos Leticia Martins">
+            <img data-src="assets/img/works/organizer-service5.jpg" class="image lazyload"
+              alt="Como trabalhamos Leticia Martins">
           </div>
           <div class="text-box -dark">
             <div class="content">
@@ -298,7 +299,7 @@
         </div>
 
         <div class="content" data-aos="zoom-in-right" data-aos-duration="800" data-aos-delay="50">
-          <img src="./assets/img/about/sobre-leticia-martins.jpg" loading="auto" class="image"
+          <img data-src="./assets/img/about/sobre-leticia-martins.jpg" class="image lazyload"
             alt="Foto Leticia Martins personal organizer">
 
           <article class="text-box -about">
@@ -315,7 +316,7 @@
       </div>
     </section>
 
-    <section class="video-section">
+    <section class="video-section lazyload">
       <div class="container">
         <div class="video-wrapper">
 
@@ -323,7 +324,7 @@
             <video class="video" title="O que é um personal organizer">
               <source src="./assets/videos/personal-organizer.mp4" type="video/mp4" preload="metadata">
             </video>
-            <div class="play">
+            <div class="play lazyload">
               <i class="far fa-play-circle"></i>
               <p class="text">O que é uma Personal Organizer</p>
             </div>
@@ -334,7 +335,7 @@
             <video class="video" title="Amor pela profissão personal organizer">
               <source src="./assets/videos/amor-pela-profissao.mp4" type="video/mp4" preload="metadata">
             </video>
-            <div class="play">
+            <div class="play lazyload">
               <i class="far fa-play-circle"></i>
               <p class="text">Amor pela profissão</p>
             </div>
@@ -406,7 +407,8 @@
   </footer>
 
 
-
+  <script src="src/lazyload/lazysizes.min.js" async></script>
+  <script src="src/lazyload/unveilhooks.min.js" async></script>
   <script src="src/header-bar-fixed.js"></script>
   <script src="src/swiperjs/swiper.min.js"></script>
   <script src="src/swiperjs/start.js"></script>
