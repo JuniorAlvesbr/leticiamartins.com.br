@@ -37,12 +37,6 @@
   margin-top: 21px;
 }
 
-@media (min-width: 400px) {
-  /* .main-about .content > .text-box {
-    height: 400px;
-  } */
-}
-
 @media (min-width: 500px) {
   .main-about .content > .text-box {
     width: 50vw;

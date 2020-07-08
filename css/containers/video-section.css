@@ -1,9 +1,9 @@
 .video-section.lazyloaded {
-  background: url("../../assets/img/about/personao-organizer-ropeiro-600.jpg");
+  background: url("../../assets/img/about/personal-organizer-fundo.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: bottom center;
 }
 
 .video-section > .container {
@@ -32,11 +32,11 @@
 }
 
 .video-wrapper > .video-card.-card1 .play.lazyloaded  {
-  background-image: url(../../assets/img/about/personal-organizer-500.jpg);
+  background-image: url(../../assets/img/about/personal-organizer.webp);
 }
 
 .video-wrapper > .video-card.-card2 .play.lazyloaded {
-  background-image: url(../../assets/img/about/amor-a-profissao-500.jpg);
+  background-image: url(../../assets/img/about/amor-profissao.webp);
 }
 
 .video-section .video-card .play {
@@ -51,9 +51,9 @@
   text-align: center;
   box-sizing: border-box;
   cursor: pointer;
+  background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  box-shadow: inset 10px -10px 200px var(--color-fifth);
 }
 
 .video-card .play .far {
@@ -62,19 +62,11 @@
 
 .video-card .play .text {
   font-size: 18px;
-  margin-top: 20px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 @media (min-width: 700px) {
-  .video-section.lazyloaded {
-    background: url("../../assets/img/about/personao-organizer-ropeiro-1280.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-  }
-
   .video-section .video-wrapper .video-card {
     max-width: 600px;
   }
@@ -87,13 +79,6 @@
     font-size: 22px;
   }
 
-  .video-wrapper > .video-card.-card1 .play.lazyloaded {
-    background-image: url(../../assets/img/about/personal-organizer-800.jpg);
-  }
-
-  .video-wrapper > .video-card.-card2 .play.lazyloaded {
-    background-image: url(../../assets/img/about/amor-a-profissao-800.jpg);
-  }
 }
 
 @media (min-width: 1200px) {
