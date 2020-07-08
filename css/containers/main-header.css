@@ -5,19 +5,19 @@
 }
 
 .main-header .slide1 {
-  background: url("../../assets/img/header/cozinha-500.jpg") no-repeat;
+  background: url("../../assets/img/header/cozinha-500.webp") no-repeat;
 }
 
 .main-header .slide2 {
-  background: url("../../assets/img/header/dobra-500.jpg") no-repeat;
+  background: url("../../assets/img/header/dobra-500.webp") no-repeat;
 }
 
 .main-header .slide3 {
-  background: url("../../assets/img/header/familia-800.jpg") no-repeat;
+  background: url("../../assets/img/header/familia-800.webp") no-repeat;
 }
 
 .main-header .slide4 {
-  background: url("../../assets/img/header/closet-500.jpg") no-repeat;
+  background: url("../../assets/img/header/closet-500.webp") no-repeat;
 }
 
 .main-header > .swiper-container .swiper-slide {
@@ -73,19 +73,19 @@
 
 @media (min-width: 800px) {
   .main-header .slide1 {
-    background: url("../../assets/img/header/cozinha-1920.jpg") no-repeat;
+    background: url("../../assets/img/header/cozinha-1920.webp") no-repeat;
   }
 
   .main-header .slide2 {
-    background: url("../../assets/img/header/dobra-1920.jpg") no-repeat;
+    background: url("../../assets/img/header/dobra-1920.webp") no-repeat;
   }
 
   .main-header .slide3 {
-    background: url("../../assets/img/header/familia-1920.jpg") no-repeat;
+    background: url("../../assets/img/header/familia-1920.webp") no-repeat;
   }
 
   .main-header .slide4 {
-    background: url("../../assets/img/header/closet-1920.jpg") no-repeat;
+    background: url("../../assets/img/header/closet-1920.webp") no-repeat;
   }
 
   .main-header > .swiper-container .header-text {
