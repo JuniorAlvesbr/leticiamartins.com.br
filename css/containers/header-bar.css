@@ -22,12 +22,13 @@
   transition: all .5s linear;
 }
 
-.header-bar .celPhone .text:first-child {
-  color: var(--color-seventh);
+.header-bar .celPhone .text {
+  color: var(--color-second);
 }
 
-.header-bar .celPhone .text:last-child {
-  color: var(--color-second);
+.header-bar .celPhone .fas {
+  color: var(--color-fourth);
+  font-size: 25px;
 }
 
 .header-bar .content-phone .divisor {

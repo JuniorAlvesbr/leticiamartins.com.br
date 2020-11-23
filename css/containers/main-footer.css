@@ -21,6 +21,10 @@
     font-size: 30px;
 }
 
+.main-footer .celPhone .text:hover {
+    color: burlywood;
+}
+
 .main-footer > .content .local {
     text-align: center;
 }
