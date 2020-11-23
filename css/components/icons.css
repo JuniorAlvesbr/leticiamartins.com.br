@@ -5,3 +5,7 @@
 .fab.-color {
   color: var(--color-fourth);
 }
+
+.fab:hover {
+  color: burlywood;
+}
