@@ -1,14 +1,24 @@
 .main-footer {
     position: relative;
+    background-color: var(--color-primary);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-footer > .text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .main-footer > .content {
-    background-color: var(--color-second);
     display: flex;
     flex-flow: column;
     justify-content: space-around;
     align-items: center;
-    height: 150px;
+    margin-top: 50px;
 }
 
 .main-footer .menu {
@@ -21,30 +31,21 @@
     font-size: 30px;
 }
 
-.main-footer .celPhone .text:hover {
-    color: burlywood;
+.main-footer .content-phone {
+    margin-top: 25px;
 }
 
-.main-footer > .content .local {
-    text-align: center;
-}
-
-.main-footer .local .fas {
+.main-footer .celPhone .action {
     font-size: 20px;
 }
 
-.main-footer > .scroll-up {
-    font-size: 14px;
-    padding: 5px 10px;
-}
-
-@media (min-width: 400px) {
-    .main-footer .menu {
-        width: 300px;
-    }
+.main-footer .celPhone .text:hover {
+    color: var(--color-fourth);
 }
 
 .main-footer > .scroll-up {
+    font-size: 9px;
+    padding: 3px 5px;
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -52,6 +53,10 @@
 }
 
 @media (min-width: 1000px) {
+    .main-footer {
+        height: 200px;
+    }
+
     .main-footer > .content {
         flex-flow: initial;
         height: 80px;
@@ -66,8 +71,7 @@
         order: 1;
     }
 
-    .main-footer .local {
-        order: 3;
-    }
-
+    .main-footer > .scroll-up {
+        font-size: 14px;
+        padding: 5px 10px;
 }

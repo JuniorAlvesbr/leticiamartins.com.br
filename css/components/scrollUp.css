@@ -1,5 +1,5 @@
 .scroll-up {
-    border: 2px solid var(--color-first);
+    border: 2px solid var(--color-ninth);
     cursor: pointer;
     transition: all .5s linear;
 }

@@ -2,10 +2,14 @@
   color: var(--color-first);
 }
 
-.fab.-color {
+.fab.-color, .fas.-color {
   color: var(--color-fourth);
 }
 
-.fab:hover {
-  color: burlywood;
+.fab.-dark, .fas.-dark {
+  color: var(--color-ninth);
+}
+
+.fab:hover, .fas:hover {
+  color: var(--color-fourth);
 }
