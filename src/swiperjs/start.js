@@ -1,7 +1,7 @@
 const swiper1 = new Swiper('.swiper1', {
   cssMode: false,
   autoplay: {
-    delay: 4000
+    delay: 3000
   },
   navigation: {
     nextEl: '.swiper-button-next',
@@ -27,7 +27,7 @@ const swiper2 = new Swiper('.swiper2', {
     slideShadows: true,
   },
   autoplay: {
-    delay: 4000,
+    delay: 2000,
   },
   pagination: {
     el: '.swiper-pagination2',
