@@ -1,6 +1,5 @@
 .main-footer {
-    position: relative;
-    background-color: var(--color-primary);
+    background-color: var(--color-second);
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -54,7 +53,7 @@
 
 @media (min-width: 1000px) {
     .main-footer {
-        height: 200px;
+        height: 500px;
     }
 
     .main-footer > .content {
