@@ -1,6 +1,5 @@
 .main-about > .container {
   padding-top: 50px;
-  height: 100%;
 }
 
 .main-about .module-title {
@@ -10,8 +9,8 @@
 .main-about > .container .content {
   margin-top: 30px;
   min-width: 320px;
-  height: 600px;
   position: relative;
+  height: 500px;
 }
 
 .main-about .content > .text-box {
@@ -50,14 +49,7 @@
 }
 
 @media (min-width: 1000px) {
-  .main-about > .container {
-    width: 99vw;
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .main-about > .container .image {
+  .main-about .container > .content {
     height: 100vh;
   }
 
@@ -66,14 +58,13 @@
     height: 250px;
     min-height: 100px;
     left: 50%;
-    bottom: 0;
-    transform: translate(-50%, 116px);
+    bottom: 30%;
+    transform: translate(-50%);
   }
 }
 
 @media (min-width: 1300px) {
   .main-about .content > .text-box {
     width: 1000px;
-    transform: translate(-50%, 154px);
   }
 }
