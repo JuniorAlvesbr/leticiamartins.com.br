@@ -5,9 +5,13 @@
   position: fixed;
   top: 0;
   z-index: 100;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
+}
+
+.modal.-active {
+  display: flex;
 }
 
 .modal > .content {
