@@ -23,10 +23,10 @@
 }
 
 .modal > .content .button-close {
-  background-color: red;
+  background-color: #353b48;
   color: var(--color-first);
   font-size: 28px;
-  border: 1px solid red;
+  border: 1px solid #353b48;
   padding: 0 10px;
   position: absolute;
   top: 0;
@@ -45,8 +45,34 @@
   margin-bottom: 20px;
 }
 
+/* modal small */
+.modal-small {
+  display: none;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 90;
+  cursor: pointer;
+}
+
+.modal-small.-active {
+  display: block;
+}
+
+.modal-small > .image {
+  align-self: start;
+  object-fit: contain;
+}
+
 @media (min-width: 600px) {
   .modal > .content {
     width: 40%;
+  }
+
+  .modal-small {
+    width: 300px;
+    bottom: 10px;
   }
 }
