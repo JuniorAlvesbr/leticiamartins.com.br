@@ -1,0 +1,40 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal > .content {
+  width: 90%;
+  background-color: var(--color-first);
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.modal > .content .button-close {
+  background-color: red;
+  color: var(--color-first);
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.modal > .content .title {
+  font-size: 16px;
+  color: var(--color-ninth);
+}
+
+.modal > .content .image {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
