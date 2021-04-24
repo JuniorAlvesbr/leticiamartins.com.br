@@ -21,7 +21,9 @@
 .modal > .content .button-close {
   background-color: red;
   color: var(--color-first);
+  font-size: 28px;
   border: 1px solid red;
+  padding: 0 10px;
   position: absolute;
   top: 0;
   right: 0;
@@ -37,4 +39,10 @@
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+  .modal > .content {
+    width: 40%;
+  }
 }
