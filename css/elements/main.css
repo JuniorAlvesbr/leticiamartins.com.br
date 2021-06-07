@@ -13,12 +13,9 @@
 
 /* container */
 @import "../containers/main-about.css";
-@import "../containers/main-contact.css";
 @import "../containers/header-bar.css";
 @import "../containers/main-projects.css";
 @import "../containers/main-footer.css";
 @import "../containers/main-header.css";
 @import "../containers/main-services.css";
-@import "../containers/video-section.css";
 @import "../containers/main-works.css";
-@import "../containers/modal.css";
