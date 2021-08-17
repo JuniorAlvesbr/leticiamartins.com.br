@@ -11,8 +11,8 @@
 }
 
 .button.-dark {
-  background-color: var(--color-eighth);
-  border: solid 1px var(--color-eighth);
+  background-color: var(--color-second);
+  border: solid 1px var(--color-second);
 }
 
 .button:hover {
