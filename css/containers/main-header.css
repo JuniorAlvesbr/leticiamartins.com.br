@@ -69,9 +69,6 @@
 }
 
 .main-header .button-content > .button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 280px;
   height: 100%;
   margin-left: auto;
