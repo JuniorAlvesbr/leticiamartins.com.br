@@ -5,6 +5,7 @@
 @import "../elements/base.css";
 
 /* Components */
+@import "../components/button.css";
 @import "../components/icons.css";
 @import "../components/images.css";
 @import "../components/module-title.css";

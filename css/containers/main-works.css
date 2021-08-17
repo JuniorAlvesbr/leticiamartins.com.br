@@ -38,11 +38,22 @@
   background-color:var(--color-fourth);
 }
 
+.main-works > .button-content {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-works > .button-content .button {
+  width: 280px;
+  height: 50px;
+}
 
 @media (min-width: 500px) {
   .main-works {
     padding-top: 100px;
-    padding-bottom: 100px;
   }
 
   .main-works .container {
@@ -88,12 +99,17 @@
     justify-content: center;
     text-align: center;
   }
+
+  .main-works > .button-content {
+    padding-top: 30px;
+  }
 }
 
 @media (min-width: 900px) {
   .main-works > .container {
     width: 750px;
   }
+  
 }
 
 @media (min-width: 1300px) {
